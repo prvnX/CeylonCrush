@@ -1,0 +1,30 @@
+:root {
+  --background-color: white;
+  --text-color: #ff009d;
+  --button-bg-color: #333;
+  --button-text-color: white;
+  --header-bg-color: #282c34;
+  --background-fade:rgba(255, 255, 255, 0.6);
+  --heading-fade:rgba(255, 255, 255, 0.9);
+    --subhead-color:#03001f;
+    --primary-style-color:#11999E;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --btn-color:#11999E;
+    --btn-color-hover:#03001f;
+
+}
+
+[data-theme='dark'] {
+  --background-color: black;
+  --text-color: rgb(255, 195, 230);
+  --button-bg-color: #ccc;
+  --button-text-color: black;
+  --header-bg-color: #1c1c1c;
+  --background-fade:rgba(0, 0, 0, 0.8);
+  --heading-fade:rgba(0, 0, 0, 0.8);
+  --subhead-color:#e9e6ff;
+  --primary-style-color:#96e0e2;
+  --shadow:rgba(255, 255, 255, 0.5);
+  --btn-color:#03001f;
+  --btn-color-hover:#11999E;
+}

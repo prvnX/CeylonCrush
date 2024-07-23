@@ -1,0 +1,34 @@
+.historycontainer{
+    margin-top: -40px;
+    margin-bottom: -25px;
+    border-radius: 75px;
+    background: var(--heading-fade); 
+    box-shadow: 0 0 10px var(--shadow);
+    padding-top:20px;
+    text-align:center;
+    z-index: 1;
+}
+.historycontent{
+    padding-top:250px;
+    text-align: center;
+    margin-top: -200px;
+    margin-bottom: -25px;
+    border-radius: 10px;
+    background: var(--heading-fade); 
+    box-shadow: 0 0 10px var(--shadow);
+    padding-bottom:20px;
+    z-index: -1;
+}
+.historycontent p{
+    margin:30px
+}
+.imagehis{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    top:70px;
+    border: 5px solid var(--primary-style-color);
+    display:inline
+}

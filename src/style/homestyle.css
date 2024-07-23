@@ -1,0 +1,141 @@
+body{
+    background-image: url(../../images/bg.avif);
+    
+    
+}
+.app-container {
+    background: var(--background-fade); 
+    margin-bottom: -50px;
+     /* Adjust margin as needed */
+}
+h1{
+    font-size: 5em;
+    font-weight: 700;
+    margin-top: 120px;
+
+    
+}
+.welcome{
+    text-shadow: 0.1 0.1 0.1   ;
+    margin-bottom: 15px;
+    font-family:"garamond", cursive;
+}
+.heading-container{
+    text-align: center;
+    height: 450px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: -25px;
+    background: var(--heading-fade);
+    box-shadow: 0 0 10px var(--shadow);
+    
+}
+.introduction{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.intro{
+    margin:50px
+}
+.introrow{
+    width: 50%;
+    margin:50px auto;
+    text-align: center;
+}
+.img1,.img2{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    top:70px;
+    border: 5px solid var(--primary-style-color);
+    display:inline
+}
+p{
+    margin-top: 3px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;;
+    font-size: 20px;
+    color:var(--subhead-color);
+    font-weight: 500;
+}
+h3,a{
+    margin-top: 0;
+    font-family: "Orelega One", serif;
+    color:var(--primary-style-color);
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 2px;
+    font-family: "garamond", cursive;
+    font-size: 5rem;
+    color: var(--text-color)
+
+}
+.what{
+    font-size:4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.heading-container input{
+    background-color: var(--heading-fade);
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid var(--primary-style-color);
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--primary-style-color);
+    text-align: center;
+}
+.app{
+    padding-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 320px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background: var(--heading-fade);
+    box-shadow: 0 0 10px var(--shadow);
+    width:100%
+}
+.app h1{
+    font-size: 5rem;
+    font-family: "Signika Negative", sans-serif;
+    color: var(--primary-style-color);
+    margin-top:0;
+    margin-bottom: -10px;
+}
+.app p{
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+.downloadbtn{
+    width: 250px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius: 25px;
+    padding: 0;
+    border: 2px solid #11999E;
+    background-color: transparent;
+    color: var(--primary-style-color);
+    font-weight: 900;
+    cursor: pointer;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 2.5rem;
+    transition: transform 1.5s;
+}
+.downloadbtn:hover{
+    background-color: var(--primary-style-color);
+    color:var(--heading-fade);
+    transform: scale3d(1.1,1.1,1.1)
+}
+.context{
+    font-size: 18px;
+    display:block
+}

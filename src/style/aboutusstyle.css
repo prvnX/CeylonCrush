@@ -1,0 +1,102 @@
+.aboutus{
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--shadow);
+    margin-bottom: -5px;
+}
+.aboutuscontainer{
+    text-align: center;
+    height: 250px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: -25px;
+    background: var(--heading-fade); 
+    box-shadow: 0 0 100px var(--shadow);
+    padding: 0 10px;
+}
+.aboutusheading{
+    font-size: 5em;
+    font-weight: 700;
+    /* margin-top: 120px; */
+}
+.aboutuscontent{
+    margin-top: -250px;
+    padding: 275px 25px 25px 0;
+    text-align: center;
+    z-index: -1;
+}
+.aboutuscontent h2{
+    font-family: "Signika Negative", sans-serif;
+    font-size: 2.8rem;
+    margin-top: 50px;
+    color: var(--primary-style-color);
+    
+}
+.aboutuscontent {
+    background: var(--heading-fade);
+}
+
+.aboutuscontent table{
+    margin: 0 auto;
+}
+.position{
+    margin-top: 3px;
+    font-size: 0.8rem;
+}
+.teamname{
+    margin-bottom: 0;
+    font-family: "Signika Negative", serif;
+    color:var(--primary-style-color);
+    font-size: 2rem;
+
+}
+
+.aboutusimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    top:70px;
+    border: 5px solid var(--primary-style-color);
+    display:inline
+}
+.teamimg{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    top:70px;
+    border: 3px solid var(--primary-style-color);
+    display:inline-block;
+    cursor: pointer;
+    transition: transform 2s
+}
+.teamimg:hover{
+    transform:scale3d(1.1,1.1,1.1)
+}
+.readmore{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius: 25px;
+    padding: 2px;
+    border: 1px solid #11999E;
+    background-color: transparent;
+    color: var(--primary-style-color);
+    font-weight: 900;
+    cursor: pointer;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 0.9rem;
+    transition: transform 1.5s;
+}
+.readmore:hover{
+    background-color: var(--primary-style-color);
+    color:var(--heading-fade);
+    transform: scale3d(1.1,1.1,1.1);
+}
